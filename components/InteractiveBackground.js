@@ -12,7 +12,7 @@ export default function InteractiveBackground() {
 
       if (bgRef.current) {
         bgRef.current.style.background = `
-          radial-gradient(circle at ${x}% ${y}%, #ff6ec4, #7873f5)
+          radial-gradient(circle at ${x}% ${y}%,rgb(210, 254, 253),rgb(7, 9, 9))
         `;
       }
     };
